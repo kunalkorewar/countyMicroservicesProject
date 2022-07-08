@@ -17,6 +17,7 @@ public class CountryController {
 	
 	//this is fully optimized code with cache maintain..
 	//no need to call DB
+	//we get response from cache directly..
     @Autowired
     CountryRepository countryRepository;
 
