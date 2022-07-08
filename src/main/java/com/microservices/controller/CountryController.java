@@ -16,6 +16,7 @@ import java.util.stream.Collectors;
 public class CountryController {
 	
 	//this is fully optimized code with cache maintain..
+	//no need to call DB
     @Autowired
     CountryRepository countryRepository;
 
