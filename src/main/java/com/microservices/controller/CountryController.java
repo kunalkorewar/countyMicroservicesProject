@@ -14,6 +14,8 @@ import java.util.stream.Collectors;
 
 @RestController
 public class CountryController {
+	
+	//this is fully optimized code with cache maintain..
     @Autowired
     CountryRepository countryRepository;
 
